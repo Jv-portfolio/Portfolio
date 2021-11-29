@@ -764,9 +764,9 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #fff;
+  background-color: #12161f;
   padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -778,7 +778,7 @@ a:hover {
 }
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #fff;
 }
 .service-box .ico-circle {
   transition: all 500ms ease;
@@ -786,15 +786,31 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-.service-box .ico-circle i {
+.service-box i {
   line-height: 0;
   font-size: 40px;
 }
+.bi-briefcase {
+  color:#af61d5;
+}
+
+.bi-card-checklist {
+  color:#2b7462;
+}
+
+.bi-bar-chart {
+  color:#e27506;
+}
+
+.bi-binoculars {
+  color:#a14c82;
+}
 .service-box .s-title {
   font-size: 1.4rem;
-  text-transform: uppercase;
+  text-transform: none;
   text-align: center;
   padding: 0.4rem 0;
+  color: #fff;
 }
 .service-box .s-description {
   color: #4e4e4e;
